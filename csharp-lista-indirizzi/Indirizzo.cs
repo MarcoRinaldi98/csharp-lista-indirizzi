@@ -27,7 +27,7 @@ namespace csharp_lista_indirizzi
 
         public override string ToString()
         {
-            return $"{this.Name} {this.Surname} abita a {this.Street}, {this.City}, {this.Province}, {this.ZIP}";
+            return $"{this.Name} {this.Surname} abita a {this.Street}, {this.City}, {this.Province}, {this.ZIP};";
         }
     }
 }
