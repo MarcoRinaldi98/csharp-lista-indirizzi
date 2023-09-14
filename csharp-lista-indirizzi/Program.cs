@@ -32,9 +32,9 @@ try
                     int counter = 1;
                     // definisco una variabile booleana che se il counter arrivera a 6 indicherà che la linea letta è valida all'inserimento dati
                     bool lineaValida = false;
-                    for (int i = 0; i < stringSplits.Length; i++)
+                    foreach (var element in stringSplits)
                     {
-                        if (stringSplits[i].Length > 0)
+                        if (element.Length > 0)
                         {
                             counter++;
                         }
